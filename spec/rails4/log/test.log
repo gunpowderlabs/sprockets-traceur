@@ -1,0 +1,6 @@
+Started GET "/" for 127.0.0.1 at 2014-06-20 21:30:56 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 280ms (Views: 279.8ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2014-06-20 21:30:57 +0200
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-06-20 21:30:57 +0200

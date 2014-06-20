@@ -1,0 +1,58 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-20 21:21:48 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/psyho/.rvm/gems/ruby-1.9.3-p545@traceur/gems/railties-4.1.1/lib/rails/templates/rails/welcome/index.html.erb (1.3ms)
+Completed 200 OK in 14ms (Views: 14.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-20 21:21:50 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/psyho/.rvm/gems/ruby-1.9.3-p545@traceur/gems/railties-4.1.1/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-20 21:22:10 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (couldn't find file 'traceur-runtime'
+  (in /home/psyho/apps/sprockets-traceur/spec/rails4/app/assets/javascripts/application.js:2)):
+    3: <head>
+    4:   <title>TraceurTest</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2366573193995097115_27539580'
+
+
+  Rendered /home/psyho/.rvm/gems/ruby-1.9.3-p545@traceur/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /home/psyho/.rvm/gems/ruby-1.9.3-p545@traceur/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.8ms)
+  Rendered /home/psyho/.rvm/gems/ruby-1.9.3-p545@traceur/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-20 21:24:14 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 300ms (Views: 300.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-20 21:24:14 +0200
+
+
+Started GET "/assets/bind_polyfill.js?body=1" for 127.0.0.1 at 2014-06-20 21:24:14 +0200
+
+
+Started GET "/assets/my_app/greeter.js?body=1" for 127.0.0.1 at 2014-06-20 21:24:14 +0200
+
+
+Started GET "/assets/traceur-runtime.js?body=1" for 127.0.0.1 at 2014-06-20 21:24:14 +0200
+
+
+Started GET "/assets/init.js?body=1" for 127.0.0.1 at 2014-06-20 21:24:14 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-20 21:24:14 +0200
