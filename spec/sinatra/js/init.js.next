@@ -1,0 +1,7 @@
+import {Greeter} from './my_app/greeter';
+
+window.onload = function() {
+  var greeter = new Greeter("Hello");
+  var greeting = greeter.greet("World");
+  document.getElementById("hello").innerHTML = greeting;
+};
