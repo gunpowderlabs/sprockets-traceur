@@ -1,0 +1,2 @@
+//= require greeter
+//= require init
