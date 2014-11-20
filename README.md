@@ -25,7 +25,7 @@ Or install it yourself as:
     //= require traceur-runtime
     ```
 
-3. Add `.js.es6` or `.js.next` extension to the files you wish to have transipled.
+3. Add `.js.es6` or `.js.next` extension to the files you wish to have transpiled.
 4. Profit!
 
 ## Usage with Sinatra/Rack
