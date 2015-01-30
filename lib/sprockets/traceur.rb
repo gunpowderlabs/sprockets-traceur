@@ -19,7 +19,7 @@ module Sprockets
 
       def evaluate(scope, locals, &block)
         name = module_name(scope)
-        ::Traceur.compile(data, module_name: name, filename: name)
+        ::Traceur.compile(data, module_name: name, filename: file)
       end
 
       private
