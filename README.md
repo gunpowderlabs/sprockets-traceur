@@ -1,5 +1,7 @@
 # Sprockets::Traceur
 
+[Introductory blog post](http://gunpowderlabs.com/blog/introducing-sprockets-traceur/)
+
 This gem integrates [traceur-rb](https://github.com/gunpowderlabs/traceur-rb) with Sprockets (and through Sprockets, with Rails Asset Pipeline).
 
 ## Installation
