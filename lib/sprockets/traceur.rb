@@ -19,7 +19,12 @@ module Sprockets
 
       def evaluate(scope, locals, &block)
         name = module_name(scope)
-        ::Traceur.compile(data, module_name: name, filename: file)
+
+        if ::Rails.present?
+          filename = file.gsub(/^#{::Rails.root}/, '')
+        end
+
+        ::Traceur.compile(data, module_name: name, filename: filename)
       end
 
       private
